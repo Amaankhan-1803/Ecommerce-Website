@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #030346;
+}
+
+.navbar-brand img{
+    padding-right: 5px;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    color: #030346;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    border-bottom:1px solid;
+    color: #030346;
+    transition:border-bottom 0.5s linear 0.1s;
+}
+
+.nav-link:active{
+    border-bottom:1px solid;
+    color: #030346;
+    transition:border-bottom 0.5s linear 0.1s;
+}
+
+.search-btn .btn {
+   border: 2px solid #030346;
+   color: #030346;
+   font-weight: 600;
+}
+
+.search-btn .btn:hover {
+   background-color:  #030346;
+   color: white;
+}
+
+.cart .fa-shopping-cart{
+    color:#030346;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.badge{
+    color: white;
+    background-color: #030346;
+    border-radius: 50%;
+    padding: 5px ;
+}
+
+.dropdown-item{
+ font-weight: 600;
+ background-color: transparent;
+}
+
+.dropdown-item:hover{
+    background-color: #030346;
+    color: white;
+}
+
+/* Slider */
+
+.carousel-item{
+    overflow: hidden !important;
+}
