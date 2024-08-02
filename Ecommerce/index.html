@@ -18,7 +18,7 @@
   </head>
   <body id="top">
     <!-- Header Menu -->
-    <section class="header_menu" id="header_menu">
+    <section class="header_menu py-2" id="header_menu">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="/assets/images/logo.png" alt="Verve" width="55px">Verve</a>
@@ -69,17 +69,345 @@
     </section>
 
     <!-- Sliders -->
-   <section id="slider">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
-      <div class="carousel-inner">
-        <div class=" carousel-item active"  data-bs-interval= "3000">
-          <img src="/assets/images/slider1.jpg" class="slider d-block w-100 h-25"  alt="...">
+    <section id="sliders">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active " data-bs-interval="2500">
+            <img src="./assets/images/slider1.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2500">
+            <img src="./assets/images/slider2.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="./assets/images/slider3.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item  " data-bs-interval="2500">
+            <img src="./assets/images/slider4.png" class="d-block w-100 img-fluid" alt="...">
+          </div> 
         </div>
       </div>
-    </div>
+    </section>
 
-   </section>
+    <!-- Category -->
+    <section id="category" class="pt-5 pb-3">
+      <div class="container-fluid">
+        <div class="title pb-3">
+          <h2 class="text-center fw-bold fs-1">Shop By Category</h2>
+        </div>
+        <div class="row ">
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <img src="/assets/images/t-shirt.png"  alt="...">
+              <div class="cat-title d-flex flex-column justify-content-center align-items-center">
+                <h4 class="catgry fw-semibold fs-3 text-light">T-Shirts</h4>
+                <a href="tshirts.html"><button class="catgry-btn">Shop</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <img src="/assets/images/jeans.png"  alt="...">
+              <div class="cat-title d-flex flex-column justify-content-center align-items-center">
+                <h4 class="catgry fw-semibold fs-3 text-light">Jeans</h4>
+                <a href="jeans.html"><button class="catgry-btn">Shop</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <img src="/assets/images/shoes.png"  alt="...">
+              <div class="cat-title d-flex flex-column justify-content-center align-items-center">
+                <h4 class="catgry fw-semibold fs-3 text-light">Shoes</h4>
+                <a href="shoes.html"><button class="catgry-btn">Shop</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <img src="/assets/images/accessories.png"  alt="...">
+              <div class="cat-title d-flex flex-column justify-content-center align-items-center">
+                <h4 class="catgry fw-semibold fs-3 text-light">Accessories</h4>
+                <a href="accessories.html"><button class="catgry-btn">Shop</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- New Products -->
+     <section id="new_products" class="py-3">
+      <div class="container">
+        <div class="title pb-3">
+          <h2 class="text-center fw-bold fs-1">Latest Products</h2>
+        </div>
+       <div class="row">
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product1.png" class="card-img-top" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">Giordano </h4>
+              <h5 class="text-truncate fw-normal">Men's Slim Fit Spread Collar Patch Pocket Long Sleeves Button Placket Curved Hem Cotton Casual Shirt</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹400</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <span class="card-text fw-semibold">478</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product4.png" class="card-img-top img-fluid" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">Mast & Harbour </h4>
+              <h5 class="text-truncate fw-normal">Alpha Array Comfort Slim Fit Jeans for Men</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹959</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-stroke text-warning"></i>
+                <span class="card-text fw-semibold">1178</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product2.png" class="card-img-top" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">Gildman</h4>
+              <h5 class="text-truncate fw-normal"> Unisex Denim Cap Water Resistant Rapid Dry Lightweight Sports Cap with Adjustable Strap</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹449</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <span class="card-text fw-semibold">478</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product3.png" class="card-img-top" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">Neeman</h4>
+              <h5 class="text-truncate fw-normal"> Mens Canvas Wanderers Sneakers | Boat Shoes | Comfortable, Flexible & Breathable</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹1400</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-stroke text-warning"></i>
+                <span class="card-text fw-semibold">3100</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="row pt-5">
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product6.png" class="card-img-top" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">REDUX </h4>
+              <h5 class="text-truncate fw-normal"> Analog Boy's & Men's Watch (White Dial and Steel Bracelet)</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹329</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-stroke text-warning"></i>
+                <span class="card-text fw-semibold">284</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product5.png" class="card-img-top" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">London Hills </h4>
+              <h5 class="text-truncate fw-normal"> Solid Men's Round Neck Cotton Blend Half Sleeve Regular Fit T-Shirts</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹252</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-stroke text-warning"></i>
+                <span class="card-text fw-semibold">1250</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product7.png" class="card-img-top" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">Generic</h4>
+              <h5 class="text-truncate fw-normal">Leather Jacket For Men Black BIKER JACKET FOR MEN</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹1280</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <span class="card-text fw-semibold">1025</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card card-small">
+            <div class="product-img">
+              <img src="/assets/images/product8.png" class="card-img-top" alt="Product 1">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fs-6 fw-semibold">Symbol </h4>
+              <h5 class="text-truncate fw-normal">Symbol Men's Stretchable Formal Pants | Trousers (Slim Fit)</h5>
+              <div class="product_amnt">
+                <p class="card-text product-price fw-semibold fs-6 pb-2">₹749</p>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <span class="card-text fw-semibold">125</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-center w-100 rounded-0"><i
+                  class="fa-solid fa-cart-shopping"></i> Add
+                </button>
+              </div>
+              <div class=" col-6 product-foot pt-2 ">
+                <button class="cart_btn btn text-white text-center w-100 rounded-0"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="explore_btn text-center py-5">
+        <a href="shop.html"><button class="btn btn-success rounded-2 fw-medium">Explore</button></a>
+       </div>
+     </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
