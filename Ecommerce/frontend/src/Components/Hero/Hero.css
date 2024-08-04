@@ -1,0 +1,20 @@
+.banners .carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #0c0755;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.663);
+}
+
+.carousel-item img
+{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}

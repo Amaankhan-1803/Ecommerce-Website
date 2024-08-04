@@ -1,0 +1,40 @@
+.Footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.Footer .brand{
+    padding-left: 10px;
+}
+
+.Footer .brand img{
+    width: 45px;
+    height: 45px;
+}
+
+.Footer .brand .brand-text{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Footer .quick .brand-text li{
+    list-style: none;
+}
+
+.Footer .quick{
+    padding-top: 11px;
+}
+
+.Footer .quick .brand-text{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Footer .quick .brand-text li a{
+    color: white;
+    text-decoration: none;
+}
+.Footer .quick .brand-text li a:hover{
+    color: #b2000c;
+}

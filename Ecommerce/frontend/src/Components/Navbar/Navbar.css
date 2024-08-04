@@ -1,0 +1,64 @@
+.navbar-brand .logo-text {
+    color: #b2000c;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+}
+
+.menu_item .nav-link a{
+    color: #0c0755;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu_item .nav-link a:hover{
+    color:#b2000c;  
+}
+
+.drop-item .dropdown-item a{
+    color: #0c0755;
+    text-decoration: none;
+}
+
+.drop-item .dropdown-item a:hover{
+    color:#b2000c ;
+}
+
+.nav_login_cart .btn{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #0c0755;
+    border-radius: 75px;
+    color: #0c0755;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white !important;
+}
+
+.nav_login_cart .btn:hover{
+    color: white;
+    background-color: #b2000c !important;
+    border: #b2000c;
+}
+
+.nav_login_cart .bag_btn{
+    cursor: pointer;
+}
+
+.nav_login_cart .translate-middle {
+    transform: translate(-115%, 230%) !important;
+}
+
+.nav_login_cart .start-100 {
+    left: 99% !important;
+}
+
+.nav_login_cart .badge{
+    background-color: #b2000c; 
+}
+

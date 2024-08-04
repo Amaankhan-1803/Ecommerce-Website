@@ -1,0 +1,21 @@
+.features .card{
+    background-color: #0c0755;
+    color: white;
+    border-radius: 20px;
+}
+
+.features .card-img-top{
+    width: 45px;
+    height: 45px;
+    padding-bottom: 5px;
+}
+
+.features .card-body{
+    padding-bottom: 18px;
+    padding-top: 5px;
+}
+
+.features .card-text{
+    font-weight: 400;
+    font-size: 15px;
+}
