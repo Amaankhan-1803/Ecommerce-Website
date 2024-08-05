@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
 
     return (
-        <Navbar className='container-fluid'>
+        <Navbar className='container-fluid' id='navbar'>
         <Navbar.Brand className='d-flex justify-content-center align-items-center ps-2'>
           <Link to= '/'><img src={logo} width="75" height="75"className="log_img" alt="Logo" />
           <span className="logo-text">E-Kart</span></Link>
@@ -22,6 +22,7 @@ const NavBar = () => {
             <NavDropdown.Item><Link to ='/decor'>Decor</Link></NavDropdown.Item>
             <NavDropdown.Item><Link to = '/kitchen' >Kitchen Appliances</Link></NavDropdown.Item>
             <NavDropdown.Item><Link to = '/sports' >Sports</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to = '/cleaning' >Cleaning</Link></NavDropdown.Item>
             </NavDropdown> 
           < Nav.Link><Link to = '/about-us'>About Us</Link></Nav.Link>
           < Nav.Link><Link to = '/contact-us' >Contact Us</Link></Nav.Link>

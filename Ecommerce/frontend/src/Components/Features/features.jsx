@@ -6,7 +6,7 @@ import feat3 from '../Assets/feat3.png'
 const Features = () => {
   return (
     <div>
-      <div className="features container-fluid py-3">
+      <div className="features container-fluid pt-3 pb-5">
         <div className="section-heading">
             <h2 className="text-center fs-2 fw-bold pb-2">Our Features</h2>
         </div>

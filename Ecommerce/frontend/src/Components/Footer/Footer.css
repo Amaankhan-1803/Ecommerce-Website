@@ -38,3 +38,9 @@
 .Footer .quick .brand-text li a:hover{
     color: #b2000c;
 }
+
+.scrolltop button{
+    background-color: transparent;
+    border: 1px solid white
+
+}

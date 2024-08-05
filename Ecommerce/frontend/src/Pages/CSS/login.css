@@ -1,0 +1,43 @@
+.login{
+    background-color: #e8f2fe;
+}
+
+.login-container{
+    width: 580px;
+    height: 600px;
+}
+
+.login-fields input{
+    height: 72px;
+    border: 1px solid #0c0755;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.login-container button{
+    border: none !important;
+}
+
+.login-container .btn{
+    height: 72px;
+    background-color: #0c0755;
+}
+
+.login-signin {
+    color: #5c5c5c;
+    margin-bottom: 0;
+}
+
+.login-signin span{
+    color: #b2000c;
+}
+
+.login-agree {
+    color: #5c5c5c;
+    font-size: 15px;
+}
+
+.term-text {
+    padding-top: 15px;
+}

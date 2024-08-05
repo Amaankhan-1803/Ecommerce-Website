@@ -1,0 +1,25 @@
+ .shopcategory-indexSort{
+    margin: 0px 30px;
+}
+.shopcategory-sort img{
+    width: 15px;
+    height: 15px;
+}
+
+.shopcategory-products{
+    margin: 20px 0;
+} 
+
+.shop-loadmore .btn{
+    border: 1px solid #0c0755 !important;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+.shop-loadmore .btn:hover{
+    background-color: #b2000c;
+    color: white;
+    border: #b2000c !important;
+}

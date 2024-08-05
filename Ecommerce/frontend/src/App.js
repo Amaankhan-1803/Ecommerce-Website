@@ -10,6 +10,7 @@ import Cart from './Pages/Cart';
 import LoginSignUp from './Pages/LoginSignUp';
 import Home from './Pages/Home';
 import Footer from './Components/Footer/Footer';
+import ShopCatg from './Pages/ShopCatg.jsx'
 function App() {
   return (
     <div className="App">
@@ -18,10 +19,12 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/shop' element={<Shop />} />
-          <Route path='/fashion' element={<Shop category="fashion" />} />
-          <Route path='/decor' element={<Shop category="decor" />} />
-          <Route path='/kitchen-appliances' element={<Shop category="kitchen" />} />
-          <Route path='/category/sports' element={<Shop category="sports" />} />
+          <Route path='/shopcatg' element={<ShopCatg />} />
+          <Route path='/fashion' element={<ShopCatg category="fashion" />} />
+          <Route path='/decor' element={<ShopCatg category="decor" />} />
+          <Route path='/kitchen' element={<ShopCatg category="kitchen" />} />
+          <Route path='/sports' element={<ShopCatg category="sports" />} />
+          <Route path='/cleaning' element={<ShopCatg category="cleaning" />} />
           <Route path='/about-us' element={<About />} />
           <Route path='/contact-us' element={<Contact />} />
           <Route path='/product' element={<Product />}>

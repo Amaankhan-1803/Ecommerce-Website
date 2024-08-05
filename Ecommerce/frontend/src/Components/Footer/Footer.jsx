@@ -2,11 +2,22 @@ import React from 'react'
 import './Footer.css'
 import logo from '../Assets/logo.png'
 import { Link } from 'react-router-dom'
+import scroll from '../Assets/scroll.png'
 
 const Footer = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      };
+
   return (
     <div>
       <div className="Footer container-fluid">
+            <div className="scrolltop text-end">
+                <button onClick={scrollToTop}><img src={scroll} width="15px" height="15px" alt="" /></button>
+            </div>
         <div className="row">
             <div className="col-md-3">
                 <div className="brand text-start">
@@ -57,7 +68,7 @@ const Footer = () => {
             </div>
         </div>
         <hr />
-        <p className="copy-text text-light fs-6 text-capitalize">&copy; 2024 All rights reserved</p>
+        <p className="copy-text text-light fs-6 text-capitalize">&copy; 2024 All rights reserved</p> 
       </div>
     </div>
   )

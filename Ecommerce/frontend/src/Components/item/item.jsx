@@ -1,7 +1,7 @@
 import React from 'react';
 import './item.css'
 
-function Item({ image, rating, name, price}) {
+function Item({ name, image, rating, price }) {
  
     return (
     <div className= 'item py-3' >
@@ -14,7 +14,7 @@ function Item({ image, rating, name, price}) {
                 <img src={rating.image} alt={`Rating: ${rating.stars}`} className="rating-image me-2" />
                  <div className="rating-count">({rating.count})</div>
             </div>
-            <div className="card-info px-2">
+            <div className="card-info px-1">
                 <p className="card-text">{name}</p>
                 <p className="card-price">₹{price}/-</p>
             </div>

@@ -30,23 +30,28 @@ const ratingImages = {
   50: star50,
 };
 
-const Shop = (props) => {
+const ShopCatg = (props) => {
   const {products} = useContext(ShopContext)
   return (
     <div className='shop-category container-fluid'> 
       <div className="shopcategory-indexSort d-flex justify-content-between align-items-center">
         <p>
-          <span className = "fw-semibold">All Products</span> 
+          <span className = "fw-semibold "> All Products </span> 
         </p>
-        <div className="shopcategory-sort px-2 py-1 rounded-4 border border-secondary">
+        <div className="shopcategory-sort px-1 py-1 rounded-4 border border-secondary">
           Sort by <img src={dropdown} alt=''/>
         </div>
       </div>
       <div className="shopcategory-products row">
         {products.map((item, i)=>{
+          if (props.category===item.category) {
             const ratingIndex = Math.round(item.rating.stars * 10);
             const ratingImage = ratingImages[ratingIndex] || ratingImages[0];
-            return <div key={i} className="col-md-3"><Item id={item.id} name={item.name} image = {item.image} rating={{ ...item.rating, image: ratingImage }} price={item.price}/></div>
+            return <div key={i} className='col-md-3'><Item  id={item.id} name={item.name} image = {item.image} rating={{ ...item.rating, image: ratingImage }} price={item.price}/></div>
+          }
+          else{
+              return null            
+          }
         })}
       </div>
       <div className="shop-loadmore d-flex justify-content-center align-items-center pt-2 pb-5">
@@ -56,4 +61,4 @@ const Shop = (props) => {
   )
 }
 
-export default Shop
+export default ShopCatg

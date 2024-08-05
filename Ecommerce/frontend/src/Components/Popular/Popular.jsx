@@ -32,18 +32,18 @@ const Popular = () => {
   return (
     <div className="container-fluid py-3">
         <div className='latest d-flex flex-column gap-2 align-items-center'>
-         <div className="section-heading">
-            <h2 className="text-center fs-2 fw-bold pb-2">Latest Products</h2>
-        </div>
-        <div className="latest_products d-flex gap-3 ">
+          <div className="section-heading">
+              <h2 className="text-center fs-2 fw-bold pb-2">Latest Products</h2>
+          </div>
+          <div className="latest_products d-flex gap-3 ">
             {latest.map((item, i)=>{
                 const ratingIndex = Math.round(item.rating.stars * 10);
                 const ratingImage = ratingImages[ratingIndex] || ratingImages[0];
                 return<Item key={i} id={item.id} name={item.name} image = {item.image} rating={{ ...item.rating, image: ratingImage }} price={item.price}/>
             })}
+          </div>
         </div>
-    </div>
-    </div>
+      </div>
   )
 }
 
